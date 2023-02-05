@@ -1,0 +1,28 @@
+{
+  "validAccount": {
+    "repository": "SampleRepository",
+    "username" : "administrator",
+    "password" : ""
+  },
+  "incorrectUsernameAccount": {
+    "repository": "SampleRepository",
+    "username" : "abc",
+    "password" : ""
+  },
+  "incorrectPasswordAccount": {
+    "repository": "SampleRepository",
+    "username" : "administrator",
+    "password" : "123"
+  },
+  "otherRepository": {
+    "repository": "TestRepository",
+    "username" : "administrator",
+    "password" : ""
+  },
+  "blankAccount": {
+    "repository": "SampleRepository",
+    "username" : "",
+    "password" : ""
+  },
+  "loginErrorMessage" : "Username or password is invalid"
+}
